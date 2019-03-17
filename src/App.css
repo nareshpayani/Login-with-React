@@ -1,0 +1,142 @@
+
+.App {
+  background-color: #F8F9FA;
+  display: flex;
+  color: white;
+  height: 1000px;
+}
+
+
+.app-right {
+  margin:auto;
+  background-color: #2E4158;
+  padding: 25px 40px;
+  height: auto;
+  width: 50%;
+  margin-top:30px;
+box-shadow:5px 10px 18px #2E4158;
+font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.center{
+  text-align: center;
+}
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 25px;
+}
+
+.PageSwitcher_Item {
+  background-color: #272727;
+  color: #ffffff;
+  padding: 10px 15px;
+ 
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher_Item_Active {
+  background-color: #5ED0C0;
+  color:#000000;
+}
+
+.PageSwitcher_Item:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.PageSwitcher_Item:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.FormTitle {
+  color: #272727;
+  font-weight: 300;
+  margin-bottom: 50px;
+ 
+}
+
+.FormTitle_link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+.FormTitle_Link_Active{
+  color: #5ED0C0;
+}
+
+.FormCenter{
+
+  margin-bottom: 100px;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField_Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: white;
+}
+.FormField_Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 2px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField_Input::placeholder {
+  color: #fff;
+}
+
+.FormField_Button {
+  background-color: #52C4B9;
+  color: #000;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.FormField_Link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+ 
+  padding: 5px;
+}
+
+.FormField_CheckboxLabel {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.FormField_Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField_TermsLink {
+  color: white;
+  border-bottom: 2px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
